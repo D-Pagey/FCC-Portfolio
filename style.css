@@ -3,19 +3,13 @@ h1 {
 }
 
 #paintball {
-  max-width: 25%;
+  max-width: 120%;
   max-height: auto;
 }
 
 #placeholder {
   max-width: 100%;
   max-height: auto;
-}
-
-#placeholder2 {
-  max-width: 100%;
-  max-height: auto;
-  margin-top: 12%;
 }
 
 #placeholder4 {
@@ -25,6 +19,11 @@ h1 {
 }
 
 #sharma {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#random {
   max-width: 100%;
   max-height: auto;
 }

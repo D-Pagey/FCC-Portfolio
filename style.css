@@ -433,10 +433,90 @@ body {
  }
 
  /* Media Queries: iPad Pro */
- /*@media only screen and (min-width: 801px) and (max-width: 1025px) {
+ @media only screen and (min-width: 801px) and (max-width: 1025px) {
 
-   * {
-     color: orange;
-   }*/
+   .navbar {
+     margin-top: 0.5em;
+   }
+
+   .navbar-items {
+     justify-content: center;
+   }
+
+   .navbar-links {
+     font-size: 1.1em;
+   }
+
+   .title {
+     font-size: 3em;
+     align-self: center;
+   }
+
+   .intro {
+     max-width: 75%;
+   }
+
+   .intro-message {
+     width: 50%;
+     align-self: flex-start;
+   }
+
+   .intro-message--text {
+     margin-top: 1em;
+   }
+
+   .intro-message--text2, .image-container {
+     margin: 0.5em 0;
+   }
+
+   .projects-intro {
+     align-self: center;
+     width: 55%;
+     margin-top: 1em;
+   }
+
+   .thumbnail-container {
+     margin: 0;
+     align-self: center;
+   }
+
+   .thumbnails {
+     margin: 1em 0 1em 1.5em;
+   }
+
+   .contact-me {
+     flex-direction: column;
+     width: 65%;
+     margin-top: 1em;
+     position: inherit;
+   }
+
+   .contact-me-text {
+     width: 80%;
+     margin: 0;
+     align-self: center;
+   }
+
+   .icons {
+     margin-top: 1em;
+     align-self: center;
+   }
+
+   .fa-twitter-square {
+     margin: 0;
+   }
+
+ }
+
+ /* Media Queries: Large Screens */
+ @media only screen and (min-width: 1333px) {
+
+   .main-image {
+     max-width: 250px;
+   }
+
+   .contact-me {
+     max-width: 540px;
+   }
 
  }

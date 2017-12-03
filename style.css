@@ -93,7 +93,7 @@ body {
 .project-thumbnails {
   display: flex;
   flex-wrap: wrap;
-  max-width: 75%;
+  max-width: 65%;
   margin-top: 1em;
   align-self: center;
   justify-content: center;
@@ -509,7 +509,7 @@ body {
  }
 
  /* Media Queries: Large Screens */
- @media only screen and (min-width: 1333px) {
+ @media only screen and (min-width: 1505px) {
 
    .main-image {
      max-width: 250px;
@@ -520,3 +520,10 @@ body {
    }
 
  }
+
+  /* Media Queries: Extra Large Screens */
+  @media only screen and (min-width: 1705px) {
+    .project-thumbnails {
+      min-width: 90%;
+    }
+  }

@@ -8,8 +8,9 @@
     <title>Pagey's Portfolio</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   </head>
   <body>
@@ -21,6 +22,33 @@
         <li class="navbar-titles"><a href="#projects" class="navbar-links">Projects</a></li>
         <li class="navbar-titles"><a href="#contact" class="navbar-links">Contact</a></li>
       </ul>
+
+      <!-- Modal -->
+      <div class="modal-container">
+        <button type="button" name="button" class="modal-btn">
+          <i class="material-icons md-14">i</i></button>
+        <dialog class="modal-about">
+          <button type="button" name="button" class="modal-cancel">
+            <i class="material-icons sm-12">clear</i></button>
+          <h4 class="modal-title">Portfolio Page</h4>
+          <p class="modal-text">This is a basic Front End Developer project
+            from the FreeCodeCamp curriculum. The user stories to be completed are:</p>
+          <ul class="user-stories">
+            <li class="story">I can access all of the portfolio webpage's content
+              just by scrolling.</li>
+            <li class="story">I can click different buttons that will take me to
+               different social media pages.</li>
+            <li class="story">I can see thumbnail images of different projects.</li>
+            <li class="story">I navigate to different sections of the webpage by
+              clicking buttons in the navigation.</li>
+          </ul>
+          <p class="modal-text copy">This project was coded natively without the
+            use of any libararies or frameworks and it is mobile responsive.
+            The code can be seen on
+            <a href="https://github.com/D-Pagey/portfolio" target="_blank" class="link">Github</a>.</p>
+        </dialog>
+      </div>
+
     </nav>
 
     <!-- Header -->
@@ -67,6 +95,8 @@
     <footer class="footer">
       <p>Written and coded by <a href="https://www.freecodecamp.org/d-pagey" target="_blank" class="footer-link">Pagey</a></p>
     </footer>
+
+    <script src="scripts.js"></script>
   </body>
 
   <!-- TO DO:

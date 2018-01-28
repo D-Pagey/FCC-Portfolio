@@ -2,10 +2,16 @@
 
 **User Stories:**
 - [x] I can access all of the portfolio webpage's content just by scrolling.
-- [x] can click different buttons that will take me to different social media pages.
+- [x] I can click different buttons that will take me to different social media pages.
 - [x] I can see thumbnail images of different projects.
 - [x] I navigate to different sections of the webpage by clicking buttons in the navigation.
 
-I first completed this project using Bootstrap and have recently refactored the CSS using Flexbox. I've also added media queries to make the project mobile responsive. Any improvements I could make to this project (e.g. JavaScript for functionality or CSS animations) I will likely leave for my actual portfolio.
+This is my 2nd project for the FreeCodeCamp curriculum. I initially completed it
+ in Bootstrap and later refactored it to native CSS with Flexbox. I've also added
+  a modal to display the user stories.
+
+The CSS isn't mobile-first and not using SCSS. I would like to change this but also
+don't want to endlessly refactor my "Basic" projects. I will save the iterative
+refactoring for my real portfolio which is based off this project. 
 
 You can see this [Personal Portfolio](https://codepen.io/Pagey/pen/xLyeNz) project on CodePen.

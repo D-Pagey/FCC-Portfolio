@@ -1,38 +1,32 @@
 * {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 /**
   * Navbar
 */
 .navbar {
   display: flex;
-  height: 3em;
-}
+  height: 3em; }
 
 .navbar-items {
   align-items: center;
   display: flex;
   height: inherit;
-  justify-content: flex-end;
-}
+  justify-content: flex-end; }
 
 .navbar-titles {
   list-style-type: none;
-  margin: 1em;
-}
+  margin: 1em; }
 
 .navbar-links {
   color: #007bff;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /**
   * Modal
@@ -41,13 +35,11 @@ body {
   background-color: transparent;
   border: none;
   margin: .5rem .5rem 0 0;
-  float: right;
-}
+  float: right; }
 
 .material-icons.md-14 {
   font-size: 14px;
-  opacity: .5;
-}
+  opacity: .5; }
 
 .modal-about {
   border: 2px solid black;
@@ -55,66 +47,54 @@ body {
   margin: 0 auto;
   padding: .5em;
   top: 15%;
-  width: 80%;
-}
+  width: 80%; }
 
 .modal-cancel {
   background-color: transparent;
   border: none;
-  float: right;
-}
+  float: right; }
 
 .material-icons.sm-12 {
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 .modal-title {
   color: royalblue;
   font-size: 1.1em;
   padding: .5em;
   text-decoration: underline;
-  width: 10em;
-}
+  width: 10em; }
 
 .user-stories {
   font-style: italic;
-  padding: .5em 2em .5em 2.5em;
-}
+  padding: .5em 2em .5em 2.5em; }
 
 .story {
-  margin-top: 1em;
-}
+  margin-top: 1em; }
 
 .story:nth-of-type(1) {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
 .modal-text {
-  margin: .5em;
-}
+  margin: .5em; }
 
 .link {
   color: royalblue;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .modal-about::backdrop {
   background: darkgray;
-  opacity: .85;
-}
+  opacity: .85; }
 
 /**
   * Title
  */
 .header {
   align-self: center;
-  margin: 1em 0;
-}
+  margin: 1em 0; }
 
 .title {
   font-size: 3.5em;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 /**
   * Intro
@@ -124,39 +104,33 @@ body {
   display: flex;
   justify-content: center;
   max-height: 300px;
-  max-width: 65%;
-}
+  max-width: 65%; }
 
 .intro-message {
   display: flex;
   flex-direction: column;
   margin: 1em 3em 1em 0;
-  width: 30%;
-}
+  width: 30%; }
 
 .intro-message--text {
-  margin: 1em 0 2em 0;
-}
+  margin: 1em 0 2em 0; }
 
 .image-container {
   height: inherit;
   margin: 1em 1em 1em .5em;
-  width: 30%;
-}
+  width: 30%; }
 
 .main-image {
   margin-left: 2em;
   border-radius: 8px;
-  width: 90%;
-}
+  width: 90%; }
 
 .line {
   align-self: center;
   border: 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 1em 0;
-  width: 58%;
-}
+  width: 58%; }
 
 /**
   * Projects
@@ -164,13 +138,11 @@ body {
 .projects-title, .contact-me-title {
   align-self: center;
   font-size: 2.5em;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 .projects-intro {
   align-self: center;
-  margin-top: 1em;
-}
+  margin-top: 1em; }
 
 .project-thumbnails {
   align-self: center;
@@ -178,29 +150,25 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 1em;
-  max-width: 65%;
-}
+  max-width: 65%; }
 
 .thumbnail-container {
   display: flex;
   height: inherit;
   margin: 1em 0;
-  max-width: 375px;
-}
+  max-width: 375px; }
 
 .thumbnails {
-  border: 1px solid rgba(0,0,0,.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   margin-left: 2em;
-  width: 90%;
-}
+  width: 90%; }
 
 /**
   * Contact Me
 */
 .contact-me-title {
-  margin-bottom: 0.5em;
-}
+  margin-bottom: 0.5em; }
 
 .contact-me {
   align-self: center;
@@ -210,432 +178,350 @@ body {
   min-height: 3em;
   position: relative;
   right: 100px;
-  width: 40%;
-}
+  width: 40%; }
 
 .contact-me-text {
   margin-right: 1em;
-  width: 65%;
-}
+  width: 65%; }
 
 .fa {
-  color: #007bff;
-}
+  color: #007bff; }
 
 .fa-twitter-square {
-  margin-right: .25em;
-}
+  margin-right: .25em; }
 
 .social:hover {
-  transform: scale(1.1);
- }
-
- .footer {
-   align-self: center;
-   margin: 1.5em 0;
- }
-
- .footer-link {
-   color: #007bff;
-   text-decoration: none;
- }
-
- /* Media Queries: Phones */
- @media only screen and (max-width: 415px) {
-
-   * {
-     font-size: 10px;
-   }
-
-   .navbar {
-     margin-top: .5em;
-   }
-
-   .navbar-items {
-     justify-content: center;
-     margin: 0 auto;
-   }
-
-   .navbar-links {
-     font-size: 1.1em;
-   }
-
-   .modal-about {
-     width: 75%;
-   }
-
-   .title {
-     align-self: center;
-     font-size: 2.5em;
-   }
-
-   .intro {
-     flex-direction: column;
-     max-height: inherit;
-     max-width: 80%;
-   }
-
-   .intro-message {
-     margin: 0;
-     order: 2;
-     width: 100%;
-   }
-
-   .intro-message--text {
-     margin: 0 0 1em 0;
-     max-width: 300px;
-   }
-
-   .image-container {
-     align-self: center;
-     padding-left: 2em;
-     width: 50%;
-   }
-
-   .main-image {
-     margin: 0 auto;
-     max-width: 150px;
-   }
-
-   .projects-intro {
-     align-self: center;
-     margin-top: 1em;
-     width: 80%;
-   }
-
-   .project-thumbnails {
-     flex-direction: column;
-     min-width: 90%;
-   }
-
-   .thumbnails {
-     margin: .5em 0 .5em 1em;
-   }
-
-   .contact-me {
-     flex-direction: column;
-     margin-top: 1em;
-     position: inherit;
-     width: 65%;
-   }
-
-   .contact-me-text {
-     align-self: center;
-     margin: 0;
-     width: 100%;
-   }
-
-   .icons {
-     align-self: center;
-     margin-top: 1em;
-   }
-
-   .fa-twitter-square {
-     margin: 0;
-   }
- }
-
- /* Media Queries: inbetween phone and iPad */
- @media only screen and (min-width: 416px) and (max-width: 600px) {
-
-      * {
-        font-size: 10px;
-      }
-
-      .navbar {
-        margin-top: .5em;
-      }
-
-      .navbar-items {
-        justify-content: center;
-        width: 100%;
-      }
-
-      .navbar-links {
-        font-size: 1.1em;
-      }
-
-      .modal-about {
-        width: 70%;
-      }
-
-      .title {
-        align-self: center;
-        font-size: 2.5em;
-      }
-
-      .intro {
-        flex-direction: column;
-        max-height: inherit;
-        max-width: 80%;
-      }
-
-      .intro-message {
-        margin: 0;
-        order: 2;
-        width: 100%;
-      }
-
-      .intro-message--text {
-        margin: 0 0 1em 0;
-        max-width: 300px;
-      }
-
-      .intro-message--text2, .projects-intro, .contact-me-text {
-        max-width: 300px;
-      }
-
-      .image-container {
-        align-self: center;
-        padding-left: 2em;
-        width: 50%;
-      }
-
-      .main-image {
-        margin: 0 auto;
-        max-width: 150px;
-      }
-
-      .projects-intro {
-        align-self: center;
-        margin-top: 1em;
-        width: 80%;
-      }
-
-      .project-thumbnails {
-        flex-direction: column;
-        min-width: 90%;
-      }
-
-      .thumbnail-container {
-        align-self: center;
-        margin: 0;
-      }
-
-      .thumbnails {
-        margin: 1em 0 1em 1.5em;
-      }
-
-      .contact-me {
-        flex-direction: column;
-        margin-top: 1em;
-        position: inherit;
-        width: 65%;
-      }
-
-      .contact-me-text {
-        align-self: center;
-        margin: 0;
-        width: 100%;
-      }
-
-      .icons {
-        align-self: center;
-        margin-top: 1em;
-      }
-
-      .fa-twitter-square {
-        margin: 0;
-      }
- }
-
- /* Media Queries: iPad */
- @media only screen and (min-width: 601px) and (max-width: 800px) {
-
-   * {
-     font-size: 14px;
-   }
-
-   .navbar {
-     margin-top: .5em;
-   }
-
-   .navbar-items {
-     justify-content: center;
-     width: 100%;
-   }
-
-   .navbar-links {
-     font-size: 1.1em;
-   }
-
-   .modal-about {
-     width: 60%;
-   }
-
-   .title {
-     align-self: center;
-     font-size: 2.5em;
-   }
-
-   .intro {
-     max-width: 75%;
-   }
-
-   .intro-message {
-     align-self: flex-start;
-     width: 50%;
-   }
-
-   .intro-message--text, .intro-message--text2, .image-container {
-     margin: .5em 0;
-   }
-
-   .image-container {
-     padding-right: 2em;
-   }
-
-   .projects-intro {
-     align-self: center;
-     margin-top: 1em;
-     width: 65%;
-   }
-
-   .project-thumbnails {
-     flex-direction: column;
-     min-width: 90%;
-   }
-
-   .thumbnail-container {
-     align-self: center;
-     margin: 0;
-   }
-
-   .thumbnails {
-     margin: 1em 0 1em 1.5em;
-   }
-
-   .contact-me {
-     flex-direction: column;
-     margin-top: 1em;
-     position: inherit;
-     width: 65%;
-   }
-
-   .contact-me-text {
-     align-self: center;
-     margin: 0;
-     width: 100%;
-   }
-
-   .icons {
-     align-self: center;
-     margin-top: 1em;
-   }
-
-   .fa-twitter-square {
-     margin: 0;
-   }
- }
-
- /* Media Queries: iPad Pro */
- @media only screen and (min-width: 801px) and (max-width: 1025px) {
-
-   .navbar {
-     margin-top: .5em;
-   }
-
-   .navbar-items {
-     justify-content: center;
-     width: 100%;
-   }
-
-   .navbar-links {
-     font-size: 1.1em;
-   }
-
-   .modal-about {
-     width: 60%;
-   }
-
-   .title {
-     align-self: center;
-     font-size: 3em;
-   }
-
-   .intro {
-     max-width: 75%;
-   }
-
-   .intro-message {
-     align-self: flex-start;
-     width: 50%;
-   }
-
-   .intro-message--text {
-     margin-top: 1em;
-   }
-
-   .intro-message--text2,
-   .image-container {
-     margin: .5em 0;
-   }
-
-   .projects-intro {
-     align-self: center;
-     margin-top: 1em;
-     width: 55%;
-   }
-
-   .thumbnail-container {
-     align-self: center;
-     margin: 0;
-   }
-
-   .thumbnails {
-     margin: 1em 0 1em 1.5em;
-   }
-
-   .contact-me {
-     flex-direction: column;
-     margin-top: 1em;
-     position: inherit;
-     width: 65%;
-   }
-
-   .contact-me-text {
-     align-self: center;
-     margin: 0;
-     width: 80%;
-   }
-
-   .icons {
-     align-self: center;
-     margin-top: 1em;
-   }
-
-   .fa-twitter-square {
-     margin: 0;
-   }
- }
-
- /* Media Queries: Large Screens */
- @media only screen and (min-width: 1405px) {
-
-   .navbar-items {
-     width: 100%;
-   }
-
-   .modal-about {
-     width: 45%;
-   }
-
-   .main-image {
-     max-width: 250px;
-   }
-
-   .contact-me {
-     max-width: 540px;
-   }
- }
-
-  /* Media Queries: Extra Large Screens */
-  @media only screen and (min-width: 1705px) {
-    .project-thumbnails {
-      min-width: 90%;
+  transform: scale(1.1); }
+
+.footer {
+  align-self: center;
+  margin: 1.5em 0; }
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none; }
+
+/* Media Queries: Phones */
+@media only screen and (max-width: 415px) {
+  * {
+    font-size: 10px; }
+
+  .navbar {
+    margin-top: .5em; }
+
+  .navbar-items {
+    justify-content: center;
+    left: 15px;
+    margin: 0 auto;
+    position: relative;
     }
 
-    .modal-about {
-      width: 35%;
-    }
+  .navbar-links {
+    font-size: 1.1em; }
+
+  .modal-about {
+    width: 75%; }
+
+  .title {
+    align-self: center;
+    font-size: 2.5em; }
+
+  .intro {
+    flex-direction: column;
+    max-height: inherit;
+    max-width: 80%; }
+
+  .intro-message {
+    margin: 0;
+    order: 2;
+    width: 100%; }
+
+  .intro-message--text {
+    margin: 0 0 1em 0;
+    max-width: 300px; }
+
+  .image-container {
+    align-self: center;
+    padding-left: 2em;
+    width: 50%; }
+
+  .main-image {
+    margin: 0 auto;
+    max-width: 150px; }
+
+  .projects-intro {
+    align-self: center;
+    margin-top: 1em;
+    width: 80%; }
+
+  .project-thumbnails {
+    flex-direction: column;
+    min-width: 90%; }
+
+  .thumbnails {
+    margin: .5em 0 .5em 1em; }
+
+  .contact-me {
+    flex-direction: column;
+    margin-top: 1em;
+    position: inherit;
+    width: 65%; }
+
+  .contact-me-text {
+    align-self: center;
+    margin: 0;
+    width: 100%; }
+
+  .icons {
+    align-self: center;
+    margin-top: 1em; }
+
+  .fa-twitter-square {
+    margin: 0; } }
+/* Media Queries: inbetween phone and iPad */
+@media only screen and (min-width: 416px) and (max-width: 600px) {
+  * {
+    font-size: 10px; }
+
+  .navbar {
+    margin-top: .5em; }
+
+  .navbar-items {
+    justify-content: center;
+    width: 100%; }
+
+  .navbar-links {
+    font-size: 1.1em; }
+
+  .modal-about {
+    width: 70%; }
+
+  .title {
+    align-self: center;
+    font-size: 2.5em; }
+
+  .intro {
+    flex-direction: column;
+    max-height: inherit;
+    max-width: 80%; }
+
+  .intro-message {
+    margin: 0;
+    order: 2;
+    width: 100%; }
+
+  .intro-message--text {
+    margin: 0 0 1em 0;
+    max-width: 300px; }
+
+  .intro-message--text2, .projects-intro, .contact-me-text {
+    max-width: 300px; }
+
+  .image-container {
+    align-self: center;
+    padding-left: 2em;
+    width: 50%; }
+
+  .main-image {
+    margin: 0 auto;
+    max-width: 150px; }
+
+  .projects-intro {
+    align-self: center;
+    margin-top: 1em;
+    width: 80%; }
+
+  .project-thumbnails {
+    flex-direction: column;
+    min-width: 90%; }
+
+  .thumbnail-container {
+    align-self: center;
+    margin: 0; }
+
+  .thumbnails {
+    margin: 1em 0 1em 1.5em; }
+
+  .contact-me {
+    flex-direction: column;
+    margin-top: 1em;
+    position: inherit;
+    width: 65%; }
+
+  .contact-me-text {
+    align-self: center;
+    margin: 0;
+    width: 100%; }
+
+  .icons {
+    align-self: center;
+    margin-top: 1em; }
+
+  .fa-twitter-square {
+    margin: 0; } }
+/* Media Queries: iPad */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  * {
+    font-size: 14px; }
+
+  .navbar {
+    margin-top: .5em; }
+
+  .navbar-items {
+    justify-content: center;
+    width: 100%; }
+
+  .navbar-links {
+    font-size: 1.1em; }
+
+  .modal-about {
+    width: 60%; }
+
+  .title {
+    align-self: center;
+    font-size: 2.5em; }
+
+  .intro {
+    max-width: 75%; }
+
+  .intro-message {
+    align-self: flex-start;
+    width: 50%; }
+
+  .intro-message--text, .intro-message--text2, .image-container {
+    margin: .5em 0; }
+
+  .image-container {
+    padding-right: 2em; }
+
+  .projects-intro {
+    align-self: center;
+    margin-top: 1em;
+    width: 65%; }
+
+  .project-thumbnails {
+    flex-direction: column;
+    min-width: 90%; }
+
+  .thumbnail-container {
+    align-self: center;
+    margin: 0; }
+
+  .thumbnails {
+    margin: 1em 0 1em 1.5em; }
+
+  .contact-me {
+    flex-direction: column;
+    margin-top: 1em;
+    position: inherit;
+    width: 65%; }
+
+  .contact-me-text {
+    align-self: center;
+    margin: 0;
+    width: 100%; }
+
+  .icons {
+    align-self: center;
+    margin-top: 1em; }
+
+  .fa-twitter-square {
+    margin: 0; } }
+
+/* Media Queries: iPad Pro */
+@media only screen and (min-width: 801px) and (max-width: 1025px) {
+  .navbar {
+    margin-top: .5em; }
+
+  .navbar-items {
+    justify-content: center;
+    width: 100%; }
+
+  .navbar-links {
+    font-size: 1.1em; }
+
+  .modal-about {
+    width: 60%; }
+
+  .material-icons.md-14 {
+    font-size: 25px;
   }
+
+  .title {
+    align-self: center;
+    font-size: 3em; }
+
+  .intro {
+    max-width: 75%; }
+
+  .intro-message {
+    align-self: flex-start;
+    width: 50%; }
+
+  .intro-message--text {
+    margin-top: 1em; }
+
+  .intro-message--text2,
+  .image-container {
+    margin: .5em 0; }
+
+  .projects-intro {
+    align-self: center;
+    margin-top: 1em;
+    width: 55%; }
+
+  .thumbnail-container {
+    align-self: center;
+    margin: 0; }
+
+  .thumbnails {
+    margin: 1em 0 1em 1.5em; }
+
+  .contact-me {
+    flex-direction: column;
+    margin-top: 1em;
+    position: inherit;
+    width: 65%; }
+
+  .contact-me-text {
+    align-self: center;
+    margin: 0;
+    width: 80%; }
+
+  .icons {
+    align-self: center;
+    margin-top: 1em; }
+
+  .fa-twitter-square {
+    margin: 0; } }
+/* Media Queries: Large Screens */
+@media only screen and (min-width: 1405px) {
+  .navbar-items {
+    width: 100%; }
+
+  .modal-about {
+    width: 45%; }
+
+  .modal-container {
+    order: -1;
+    margin: 5px 10px;
+  }
+
+  .material-icons.md-14 {
+      font-size: 28px;
+    }
+
+  .main-image {
+    max-width: 250px; }
+
+  .contact-me {
+    max-width: 540px; } }
+/* Media Queries: Extra Large Screens */
+@media only screen and (min-width: 1705px) {
+  .project-thumbnails {
+    min-width: 90%; }
+
+  .modal-about {
+    width: 35%; } }
+
+/*# sourceMappingURL=style.css.map */

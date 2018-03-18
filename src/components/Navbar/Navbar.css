@@ -1,0 +1,18 @@
+.navbar {
+  align-self: center;
+  display: flex;
+  height: 3em; }
+
+.navbar-items {
+  align-items: center;
+  display: flex;
+  height: inherit;
+  justify-content: flex-end; }
+
+.navbar-titles {
+  list-style-type: none;
+  margin: 1em; }
+
+.navbar-links {
+  color: #007bff;
+  text-decoration: none; }

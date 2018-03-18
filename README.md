@@ -12,6 +12,6 @@ This is my 2nd project for the FreeCodeCamp curriculum. I initially completed it
 
 The CSS isn't mobile-first and not using SCSS. I would like to change this but also
 don't want to endlessly refactor my "Basic" projects. I will save the iterative
-refactoring for my real portfolio which is based off this project. 
+refactoring for my real portfolio which is based off this project.
 
 You can see this [Personal Portfolio](https://codepen.io/Pagey/pen/xLyeNz) project on CodePen.

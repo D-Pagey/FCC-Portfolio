@@ -5,6 +5,7 @@ import Modal from './components/Modal';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Intro from './components/Intro';
+import Projects from './components/Projects';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Navbar />
         <Header />
         <Intro />
+        <Projects />
         <p>Chicken</p>
       </div>
     );

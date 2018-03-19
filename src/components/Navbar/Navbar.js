@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import './Navbar.css';
-import Modal from '../Modal';
 
 class Navbar extends Component {
   render() {
@@ -15,7 +14,6 @@ class Navbar extends Component {
               <li class="navbar-titles">
                 <a href="#contact" class="navbar-links">Contact</a></li>
         </ul>
-        <Modal />
       </nav>
     )
   }

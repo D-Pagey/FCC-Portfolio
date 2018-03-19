@@ -1,12 +1,14 @@
 .navbar {
   align-self: center;
   display: flex;
+  align-items: center;
   height: 3em; }
 
 .navbar-items {
   align-items: center;
   display: flex;
   height: inherit;
+  padding: 0;
   justify-content: flex-end; }
 
 .navbar-titles {

@@ -1,0 +1,32 @@
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.contact-me-title {
+  font-size: 1.75rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-text {
+  width: 85%;
+}
+
+.fa {
+  color: #007bff; }
+
+.fa-twitter-square {
+  margin-right: .25em; }
+
+.social:hover {
+  transform: scale(1.1); }

@@ -6,12 +6,14 @@
 - [x] I can see thumbnail images of different projects.
 - [x] I navigate to different sections of the webpage by clicking buttons in the navigation.
 
-This is my 2nd project for the FreeCodeCamp curriculum. I initially completed it
- in Bootstrap and later refactored it to native CSS with Flexbox. I've also added
-  a modal to display the user stories.
+This is my 2nd project for the FreeCodeCamp curriculum. The most recent version of this project was written in React using Create-React-App. In the past, I have made versions of this project in Bootstrap and then pure HTML and CSS, using Flexbox. 
 
-The CSS isn't mobile-first and not using SCSS. I would like to change this but also
-don't want to endlessly refactor my "Basic" projects. I will save the iterative
-refactoring for my real portfolio which is based off this project.
+**Improvements:**
+- Fix the ::backdrop CSS element on the Dialog element. It works in the vanilla JS version but not in the React version.
+
+**Getting Started:**
+ 1. Run: `npm install`
+ 2. Run: `npm start` _(in a new terminal)_
+ 3. Go to: `http://localhost:3000/`
 
 You can see this [Personal Portfolio](https://codepen.io/Pagey/pen/xLyeNz) project on CodePen.

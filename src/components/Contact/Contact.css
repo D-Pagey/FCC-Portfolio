@@ -11,6 +11,9 @@
   text-align: center;
   margin: 0;
 }
+@media screen and (min-width: 1020px) {
+  .contact-me-title {
+    font-size: 2rem; } }
 
 .contact-me {
   display: flex;
@@ -21,6 +24,9 @@
 .contact-me-text {
   width: 85%;
 }
+@media screen and (min-width: 760px) {
+  .contact-me-text {
+    text-align: center; } }
 
 .fa {
   color: #007bff; }

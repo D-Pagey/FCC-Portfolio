@@ -9,3 +9,7 @@
   margin: 1em 0;
   width: 85%;
 }
+@media screen and (min-width: 760px) {
+  .line {
+    width: 60%;
+  } }

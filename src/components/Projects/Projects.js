@@ -28,8 +28,6 @@ class Projects extends Component {
               <a href="https://codepen.io/Pagey/full/GmOYdm/" target="_blank">
                 <img src={Tribute} alt="Tribute Page" className="thumbnails" /></a></span>
         </main>
-
-        <hr className="line" />
       </div>
     );
   }

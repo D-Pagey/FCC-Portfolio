@@ -16,7 +16,6 @@ class Intro extends Component {
           <p className="intro-message--text2">When I'm not coding, I'm either playing
               tournament paintball, climbing or playing 5-a-side football.</p>
         </div>
-        <hr class="line" />
       </section>
     )
   }

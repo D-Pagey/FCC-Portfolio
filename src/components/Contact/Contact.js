@@ -12,9 +12,9 @@ class Contact extends Component {
             get in touch or see my code:</p>
 
           <div className="icons">
-            <a href="https://twitter.com/Pagey64" target="_blank">
+            <a href="https://twitter.com/Pagey64" target="_blank" rel="noopener noreferrer">
               <i className="fa fa-twitter-square fa-3x social"></i></a>
-              <a href="https://github.com/D-Pagey" target="_blank">
+              <a href="https://github.com/D-Pagey" target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-github-square fa-3x social"></i></a>
           </div>
         </div>

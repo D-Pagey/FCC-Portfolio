@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <footer class="footer">
         <p>Written and coded by <a href="https://www.freecodecamp.org/d-pagey"
-          target="_blank" class="footer-link">Pagey</a></p>
+          target="_blank"  rel="noopener noreferrer" class="footer-link">Pagey</a></p>
       </footer>
     )
   }

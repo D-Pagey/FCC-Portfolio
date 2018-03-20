@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
 import './Projects.css';
-import Wikipedia from './Wikipedia.png';
-import Weather from './Weather.png';
-import Quoter from './Quoter.png';
-import Tribute from './Tribute.png';
+import Wikipedia from './img/Wikipedia.png';
+import Weather from './img/Weather.png';
+import Quoter from './img/Quoter.png';
+import Tribute from './img/Tribute.png';
 
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div className="projects">
         <h3 className="projects-title" id="projects">Projects</h3>
         <p className="projects-intro">Here is a small selection of the work I've done
            on my Web Dev journey:</p>

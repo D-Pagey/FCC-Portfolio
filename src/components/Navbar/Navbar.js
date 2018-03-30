@@ -1,22 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './Navbar.css';
 
-class Navbar extends Component {
-  render() {
-    return (
-      <nav className="navbar">
-        <ul class="navbar-items">
-          <li class="navbar-titles">
-            <a href="#about" class="navbar-links">About</a></li>
-            <li class="navbar-titles">
-              <a href="#projects" class="navbar-links">Projects</a></li>
-              <li class="navbar-titles">
-                <a href="#contact" class="navbar-links">Contact</a></li>
-        </ul>
-      </nav>
-    )
-  }
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <ul className="navbar-items">
+        <li className="navbar-titles">
+          <a href="#about" className="navbar-links">About</a></li>
+          <li className="navbar-titles">
+            <a href="#projects" className="navbar-links">Projects</a></li>
+            <li className="navbar-titles">
+              <a href="#contact" className="navbar-links">Contact</a></li>
+      </ul>
+    </nav>
+  )
 }
 
 export default Navbar;

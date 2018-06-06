@@ -1,6 +1,9 @@
 ## Personal Portfolio -  A Free Code Camp project
 
-This is my 2nd project for the original FreeCodeCamp curriculum. 
+This is my 2nd project for the original FreeCodeCamp curriculum. It formed the 
+basis for my actual portfolio before I decided to redesign it. The initial 
+challenge with this project was around developing something I designed from 
+scratch, and for it to not look horrible. 
 
 **User Stories:**
 - [x] I can access all of the portfolio webpage's content just by scrolling.

@@ -1,7 +1,7 @@
 .navbar {
+  align-items: center;
   align-self: center;
   display: flex;
-  align-items: center;
   height: 3em; }
 @media screen and (min-width: 760px) {
   .navbar {

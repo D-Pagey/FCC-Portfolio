@@ -1,6 +1,7 @@
 .App {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column; 
+}
 
 .line {
   align-self: center;
@@ -10,7 +11,9 @@
   max-width: 600px;
   width: 85%;
 }
+
 @media screen and (min-width: 760px) {
   .line {
     width: 60%;
-  } }
+  } 
+}
